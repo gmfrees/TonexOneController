@@ -17,6 +17,15 @@ limitations under the License.
 
 #pragma once
 
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
+#include "driver/i2c_master.h"
+#include "lvgl.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void platform_init(i2c_master_bus_handle_t bus_handle, SemaphoreHandle_t I2CMutex, lv_disp_drv_t* pdisp_drv);
 void platform_adjust_touch_coords(lv_coord_t* x, lv_coord_t* y);
 void platform_adjust_display_flush_area(lv_area_t *area);
@@ -24,3 +33,7 @@ void platform_get_icon_coords(int16_t* dest, uint8_t max_entries);
 const lv_font_t* platform_get_toast_font(void);
 uint16_t platform_get_toast_padding(void);
 lv_dir_t platform_adjust_gesture(lv_dir_t gesture);
+
+#ifdef __cplusplus
+}
+#endif

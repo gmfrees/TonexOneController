@@ -15,6 +15,9 @@ limitations under the License.
  
 */
 
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
+
 #include <inttypes.h>
 #include <string.h>
 #include <stdlib.h>
@@ -24,6 +27,8 @@ limitations under the License.
 #include "esp_check.h"
 #include "esp_log.h"
 #include "CH422G.h"
+
+
 
 
 #define ESP_IO_EXPANDER_I2C_CH422G_ADDRESS_000    (0x24)
@@ -404,3 +409,5 @@ esp_err_t CH422G_init(i2c_master_bus_handle_t bus_handle, SemaphoreHandle_t I2CM
     // Reset configuration and register status 
     return CH422G_reset();	
 }
+
+
