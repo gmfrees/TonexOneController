@@ -13,6 +13,9 @@ extern const lv_img_dsc_t img_bt_conn;
 extern const lv_img_dsc_t img_bt_disconn;
 extern const lv_img_dsc_t img_smythbuilt;
 extern const lv_img_dsc_t img_DeepFrees;
+extern const lv_img_dsc_t img_DeepFrees2;
+extern const lv_img_dsc_t img_DeepFrees3;
+extern const lv_img_dsc_t img_Tonex;
 extern const lv_img_dsc_t img_usb_fail;
 extern const lv_img_dsc_t img_usb_ok;
 extern const lv_img_dsc_t img_wifi_conn;
@@ -26,7 +29,7 @@ typedef struct _ext_img_desc_t {
 } ext_img_desc_t;
 #endif
 
-extern const ext_img_desc_t images[9];
+extern const ext_img_desc_t images[13];
 
 
 #ifdef __cplusplus

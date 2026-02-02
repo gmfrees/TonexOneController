@@ -1,12 +1,15 @@
 #include "images.h"
 
-const ext_img_desc_t images[9] = {
+const ext_img_desc_t images[13] = {
     { "arrow_left", &img_arrow_left },
     { "arrow_right", &img_arrow_right },
     { "bt_conn", &img_bt_conn },
     { "bt_disconn", &img_bt_disconn },
     { "smythbuilt", &img_smythbuilt },
-    { "smythbuilt", &img_DeepFrees },
+    { "DeepFrees", &img_DeepFrees },
+    { "DeepFrees2", &img_DeepFrees2 },
+    { "DeepFrees3", &img_DeepFrees3 },
+    { "Tonex", &img_Tonex },
     { "usb_fail", &img_usb_fail },
     { "usb_ok", &img_usb_ok },
     { "wifi_conn", &img_wifi_conn },

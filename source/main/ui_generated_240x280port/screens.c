@@ -89,15 +89,24 @@ void create_screen_screen1() {
                         //     lv_img_set_src(obj, &img_smythbuilt);
                         //     lv_img_set_zoom(obj, 200);
                         // }
-                         {
+                        // {
                             // ui_IKLogo
                             lv_obj_t *obj = lv_img_create(parent_obj);
                             objects.ui_ik_logo = obj;
                             lv_obj_set_pos(obj, -23, -11);
                             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
-                            lv_img_set_src(obj, &img_DeepFrees);
+                            lv_img_set_src(obj, &img_DeepFrees3);
                             lv_img_set_zoom(obj, 200);
-                        }
+                        // }
+                        // {
+                        //     // ui_IKLogo
+                        //     lv_obj_t *obj = lv_img_create(parent_obj);
+                        //     objects.ui_ik_logo = obj;
+                        //     lv_obj_set_pos(obj, -23, -11);
+                        //     lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
+                        //     lv_img_set_src(obj, &img_Tonex);
+                        //     lv_img_set_zoom(obj, 200);
+                        // }
                         {
                             // ui_WiFiStatusConn
                             lv_obj_t *obj = lv_img_create(parent_obj);

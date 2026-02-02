@@ -114,7 +114,9 @@ if(CONFIG_TONEX_CONTROLLER_HARDWARE_PLATFORM_WAVESHARE_169 OR CONFIG_TONEX_CONTR
 
       target_sources(${COMPONENT_LIB} PRIVATE "ui_generated_240x280port/ui.c" "ui_generated_240x280port/styles.c"
                                "ui_generated_240x280port/screens.c" "ui_generated_240x280port/images.c"
-                               "ui_generated_240x280port/ui_image_smythbuilt.c" "ui_generated_240x280port/ui_image_DeepFrees.c"
+                               "ui_generated_240x280port/ui_image_smythbuilt.c" 
+                               "ui_generated_240x280port/ui_image_DeepFrees.c" "ui_generated_240x280port/ui_image_DeepFrees2.c" "ui_generated_240x280port/ui_image_DeepFrees3.c"
+                               "ui_generated_240x280port/ui_image_Tonex.c"
                                "ui_generated_240x280port/ui_image_usb_fail.c"
                                "ui_generated_240x280port/ui_image_usb_ok.c"
                                "ui_generated_240x280port/ui_image_wifi_conn.c" "ui_generated_240x280port/ui_image_wifi_disconn.c"
