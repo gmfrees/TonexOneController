@@ -12,6 +12,7 @@ extern const lv_img_dsc_t img_arrow_right;
 extern const lv_img_dsc_t img_bt_conn;
 extern const lv_img_dsc_t img_bt_disconn;
 extern const lv_img_dsc_t img_smythbuilt;
+extern const lv_img_dsc_t img_DeepFrees;
 extern const lv_img_dsc_t img_usb_fail;
 extern const lv_img_dsc_t img_usb_ok;
 extern const lv_img_dsc_t img_wifi_conn;
